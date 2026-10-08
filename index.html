@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adi's Music</title>
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?v=2">
+</head>
+<body>
+    <div id="main">
+         <div id="musicBox">
+
+            <div id="mainbox">
+                <div id="box1">
+                    <h1 class ="text" id="heading1">My Music App</h1>
+                    <h2 class ="text" id="heading2">Songs</h2>
+                </div>
+
+                <div id="box2">
+                    <div id="player">
+                        <button id = "previous">
+                            <i class="ri-skip-back-line"></i>
+                        </button>
+
+                        <button id="play">
+                            <i class="ri-play-line"></i>
+                        </button>
+
+                        <button id="foward">
+                            <i class="ri-skip-forward-line"></i>
+                        </button>
+
+                        <div id="audios">
+                            <audio id="musics">
+                                <source src="music1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+
+                        <div class="progress-container">
+                            <span id="current-time">0:00</span>
+                            <input type="range" id="progress-bar" value="0" min="0" max="100">
+                            <span id="duration">0:00</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>  
+        </div>  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

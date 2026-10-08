@@ -1,0 +1,87 @@
+*{
+   margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+   height: 100%;
+    width:  100%;
+}
+#main{
+    height: 100%;
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+
+#musicBox{
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+}
+
+.text {
+    color:#ffffff;
+}
+
+#mainbox {
+    margin-top: 8%;
+}
+
+#heading1 {
+    font-size: 70px;
+}
+
+#heading2 {
+    font-size: 50px;
+}
+
+#box2 {
+    margin-top: 3%;
+}
+
+
+#player button {
+    padding: 12px 31px;
+    font-size: 20px;
+    cursor: pointer; /* Makes the cursor a pointer hand on hover */
+    background-color: #1db954;
+    border: none;
+    border-radius: 10%;
+}
+
+i {
+    font-size: 25px;
+}
+
+#audios {
+    margin-top: 3%;
+}
+audio {
+    width: 50%;
+    margin-top: 15px;
+    filter: invert(0.9);
+    transform: scale(1.1);
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#progress-bar {
+    width: 60%;
+    cursor: pointer;
+    accent-color: #1db954; /* Green matching your buttons */
+}
